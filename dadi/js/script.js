@@ -1,0 +1,1 @@
+//tirare un dado da 1 a 6 sia per l'utente che per il pc e decretare chi ha vinto
