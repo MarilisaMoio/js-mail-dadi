@@ -1,0 +1,77 @@
+/* #region RESET */
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+/* #endregion RESET */
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+}
+
+.container{
+    max-width: 600px;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    & h1{
+        text-align: center;
+        width: 100%;
+    }
+    & > div{
+        text-align: center;
+        font-size: 2rem;
+        & > div{
+            font-size: 1rem;
+            font-weight: 900;
+        }
+    }
+    & div:last-child{
+        width: 100%
+    }
+}
+
+#game-counter{
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#player-dice{
+    color: forestgreen;
+}
+
+#opponent-dice{
+    color:darkred;
+}
+
+.green{
+    color:chartreuse;
+}
+
+.red{
+    color: red;
+}
